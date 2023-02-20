@@ -1,2 +1,47 @@
-first text
-kghf
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www vyber</title>
+    <meta >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo">
+            <h1>
+                Plitvická jezera
+            </h1>
+        </header>
+        <nav class="bocni">
+            <ul>
+                <h2>Obsah</h2>
+                <li><a href="index.html">Hlavní strana</a></li>
+                <li><a href="jezera.html">Jezera</a></li>
+                <li><a href="zajimavosti.html">Zajímavosti</a></li>
+            </ul>
+        </nav>
+        <main content>
+            <h2>Rozloha</h2>
+            <img class="ind" src="images/ind.jpg" alt="ind">
+            <article>
+                <p class="rozloha">
+                    Plitvická jezera se stala národním parkem 8.dubna 1949. Tento národní park je nejnavštěvovanější, nejstarší a největší v celém Chorvatsku. V roce 2006 navštívilo Plitvická jezera dokonce 865 tisíc návštěvníků. Celková plocha tohoto Národního parku je 29 685 hektarů, z toho jezera tvoří 200 ha, lesy přibližně polovinu území a zbytek jsou pastviny a další oblasti. Průměrná nadmořská výška je 600 metrů. Nejnižší bod je 367 m na Koránském mostě a nejvyšší 1279 m na Seliškém vrchu. Nachází se ve dvou krajích, 91% parku je v kraji Lika-Senj a zbylých 9% v kraji Karlovac. Park je podle stupně ochrany rozdělen na užší a širší zónu.
+                </p>
+            </article>
+            <h2>Historie</h2>
+            <article>
+                <img class="jez" src="images/jez.jpg" alt="jez">
+                <p>
+                    V roce 1493, nedaleko Plitvických jezer, se odehrála bitva na Krbavském poli, kde Osmané porazili chorvaty. V roce 1527 byl zvolen Ferdinanda I. králem Chorvatska. V roce 1538 nařídil Ferdinand I. zřízení chorvatské vojenské hranice na hranici Habsburské monarchie a Osmanské říše. Ve službě bylo hodně chorvatů a srbů. Osmani několikrát ovládali oblast Plitvických jezer, ale od roku 1788 se Plitvice už nedostaly pod tureckou nadvládu. Roku 1805 padla oblast Plitvic do rukou Napoleonovi. Po roce 1814 se oblast Plitvických jezer vrátila k habsburské nadvládě. Od roku 1850 sloužili na vojenské hranici pouze profesionální vojáci. V roce 1871 zemřel slavný chorvatský politik Eugen Kvaternik severně od Plitvických jezer v Rakovici. Tato oblast byla součástí Chorvatské banoviny v Jugoslávském království. Dnes je součástí Chorvatské republiky.
+                </p>
+            </article>
+        </main>
+        <footer>
+            <p class="fot">vytvořil: Tomáš Řezanka</p>
+        </footer>
+    </div>
+</body>
+</html>
