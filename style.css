@@ -1,0 +1,86 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: aquamarine;}
+img.logo {
+    float: left;
+    margin-top: 0px;
+    top: 5px;
+    left: 15px;
+}
+main content {
+    margin: 20px;
+    text-align: left;}
+p {padding-left: 50px;}
+div.wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 150px 3fr 1fr;
+    grid-template-rows: 100px 1fr 50px;}
+header {
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: aquamarine;
+    border-bottom: 3px solid black;}
+header h1 {text-align: center;}
+nav.bocni {
+    left: 0;
+    top: 250px;
+    width: 150px;
+    padding: 5px;
+    text-align: left;
+    background-color: aquamarine;
+    border: 3px solid black;
+    border-left: none;
+    text-decoration: none;
+    position: fixed;
+    grid-column: 1;
+    grid-row: 2;}
+nav.bocni li {
+    padding: 10;
+    margin: 5;
+    background-color: aquamarine;
+    list-style-type: none;}
+nav a {
+    text-decoration: none;
+    color: black;}
+nav.bocni a:hover {
+    color: darkgreen;}
+main {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 15px;}
+p {
+    text-align: justify;}
+* {
+    padding: 0px;
+    margin: 0px;}
+footer {
+    grid-column: 1/4;
+    grid-row: 3;
+    padding: 15px;
+    background-color: aquamarine;
+    border-top: 3px solid black;
+    text-align: center;
+}
+img.doprava {
+    float: left;
+    margin: 10px 30px 10px 50px;
+}
+img.cistota {float: right;
+    margin: 10px 0px 10px 30px;
+}
+img.ind {float: left;
+    margin: 10px 30px 10px 50px;
+}
+h2 {text-align: center;
+}
+img.vin {float: left;
+    margin: 10px 30px 10px 50px;
+}
+img.jez {float: right;
+    margin: 10px 0px 10px 30px;
+}
+p.fot {text-align: center;}
+article {margin: 5px;}
+p.rozloha {margin-bottom: 90px;}
